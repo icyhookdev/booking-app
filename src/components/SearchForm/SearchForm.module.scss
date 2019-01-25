@@ -1,0 +1,36 @@
+.search {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__input {
+    font-size: 1.7em;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 0.7rem 2rem;
+    width: 70%;
+    transition: all 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.7);
+    margin-right: -4rem;
+    &:focus {
+      width: 75%;
+    }
+  }
+  &__btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+  &__icon {
+    height: 1.5em;
+    width: 1.5em;
+    background: url('../../assets/images/search.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
