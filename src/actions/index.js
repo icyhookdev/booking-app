@@ -1,0 +1,1 @@
+export { getRentals } from './rentalAction';
