@@ -1,14 +1,7 @@
 import React, { Fragment } from 'react';
-import Card from '../../Card/Card';
 
-const RentalBookings = props => {
-  return (
-    <Fragment>
-      <Card />
-      <Card />
-      <Card />
-    </Fragment>
-  );
+const RentalBookings = ({ displayRentals }) => {
+  return <Fragment>{displayRentals()}</Fragment>;
 };
 
 export default RentalBookings;
