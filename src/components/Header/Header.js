@@ -1,12 +1,14 @@
 import React from 'react';
 import classes from './Header.module.scss';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import SearchForm from '../SearchForm/SearchForm';
 
 export default props => {
   return (
     <header className={classes.Header}>
-      <h2>Booking place</h2>
+      <Link className={classes.title__link} to="/">
+        <h2>Booking place</h2>
+      </Link>
       <SearchForm />
       <nav className={classes.navbar}>
         <ul className={classes.navbar__items}>

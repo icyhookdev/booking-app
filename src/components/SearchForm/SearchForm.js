@@ -7,6 +7,7 @@ export default props => (
       className={classes.search__input}
       type="text"
       name="booking"
+      placeholder="City ex. New York"
       autoComplete="off"
     />
     <button className={classes.search__btn}>
