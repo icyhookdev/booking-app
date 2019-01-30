@@ -1,1 +1,1 @@
-export { getRentals } from './rentalAction';
+export { getRentals, getRental } from './rentalAction';
