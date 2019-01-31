@@ -1,0 +1,57 @@
+.booking {
+  padding: 5em 5em;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+
+  &__show {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    .img {
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .location {
+      div {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &__details {
+    margin: 2em 0;
+
+    .details__title {
+      font-size: 2.5em;
+    }
+
+    .details__city {
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-top: 1.2em;
+      color: rgb(138, 137, 137);
+    }
+
+    .details__room {
+      display: flex;
+      margin-top: 1.2em;
+      list-style: none;
+      padding: 0;
+      li {
+        margin-right: 1em;
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+    }
+
+    .details__description {
+      font-size: 1.5em;
+      margin-top: 1.2em;
+    }
+  }
+}
